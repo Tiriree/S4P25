@@ -3,44 +3,84 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tiri's class website</title>
-    <link rel="icon" type="image/png" href="images/dog.jpg" />
+    <title>Software for People 25</title>
+    <!-- <link rel="icon" type="image/png" href="images/dog.jpg" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="top">Tiriree's class website</h1>
-    <h2>Class projects</h2>
-    <ol>
+    <h1 id="top">Software for People 25</h1>
+    <div id="p5-container"></div>
+    <h2>Class Projects</h2>
+    <ol id="project-list">
       <li>Project 1</li>
       <li>Project 2 (coming soon!)</li>
       <li>Project 3 (coming soon!)</li>
     </ol>
-    <h2>Exercises</h2>
-    <a href="exercises/song.html">Variations on a song</a>
-    <br />
-    <br />
-    <br />
+    <h2>Links</h2>
+    <a
+      href="https://tiri.notion.site/Software-for-People-1203700074c680949e0cf653204bac62?pvs=4"
+      >Syllabus</a
+    ><br />
+    <a
+      href="https://docs.google.com/spreadsheets/d/1g85O9UD3MHQvmr2ihzTQHGS_aaB6pNwtyxKy1OHHoX4/edit?usp=sharing"
+      >Symposium</a
+    ><br />
+    <a
+      href="https://docs.google.com/document/d/1CXJlfd0zHnU06_K06zOFDlXjlriA_5K6kl9u8RSPrik/edit?usp=sharing"
+      >Worksheet</a
+    >
+
     <div>
-      <h4>About this site</h4>
-      <p>
-        Here's a little paragraph about this site, in a paragraph tag... This is
-        just some sample code to help you get started. You'll notice the HTML
-        page has all the basic parts. You can change the title and the h1 at the
-        top to include your name. I also set up a few links... click on "Top 10"
-        and you'll go to the start of a top 10 list... then there's a link back
-        to this page. Can copy and paste any of these tags or delete them and
-        replace with your own content.
-      </p>
-      <div>
-        <a
-          href="https://tiri.notion.site/Software-for-People-1203700074c680949e0cf653204bac62?pvs=4"
-          >Visit my homepage!</a
-        >
+      <h4>Description</h4>
+      <div id="about-text">
+        <p>
+          This course introduces the fundamentals of programming with a focus on
+          crafting interactive digital experiences that challenge, inspire, and
+          engage. Using core web technologies such as HTML, CSS, and JavaScript,
+          along with p5.js library, students will learn to transform static
+          ideas into experimental, interactive visual narratives.
+        </p>
+        <p>
+          This course explores the intersection of design and programming as a
+          space for experimentation and dialogue. How can we use code not just
+          to create functional websites but to ask questions, tell stories, and
+          reflect the complexities of contemporary culture? Students will
+          experiment with interactivity, animation, and responsive design to
+          reimagine how digital spaces can communicate meaning and evoke
+          emotion.
+        </p>
+        <p>
+          Throughout the semester, students will work both individually and
+          collaboratively on a series of exercises and projects that highlight
+          programming as a design medium. For the final presentation, students
+          will create a digital zine, which will serve as a hybrid of visual
+          storytelling, interactivity, and code. This project will function as
+          both a portfolio piece and a personal statement, encouraging students
+          to think critically about the role of digital media in shaping culture
+          and to question and expose what web design can be.
+        </p>
+        <p>
+          By the end of the course, students will have a foundational
+          understanding of how to use programming to empower their design
+          practice, create engaging web experiences, and contribute thoughtfully
+          to the digital landscape. While prior programming experience is
+          helpful, it is not required. The course is designed to be accessible
+          to beginners, with a step-by-step approach to learning the key
+          concepts of coding and interactive design.
+        </p>
       </div>
     </div>
-    <p>Technology is <b>truly</b> amazing!</p>
-    <div>
+    <!-- <p>Technology is <b>truly</b> amazing!</p> -->
+    <!-- <div>
       <img src="images/dog.jpg" />
-    </div>
+    </div> -->
     <br />
     <br />
     <br />
@@ -52,6 +92,7 @@
         <a href="#top">Back to top</a>
       </div>
     </footer>
+    <script src="pull_content.js"></script>
+    <script src="sketch.js"></script>
   </body>
 </html>
-x
