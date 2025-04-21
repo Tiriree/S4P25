@@ -2,8 +2,8 @@
 //link to spreadsheet:
 // https://docs.google.com/spreadsheets/d/1XsF_SFongEqACoIJha3hijCFmLdijyfJPAZdPn5roD8/edit?usp=sharing
 // let url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDPJmwmnOI18TLWS1XU5Zp1kWhruL4HcLyTsjVU1PpjgSf7id0Apirre5RsFoRTk7tyS1gXcNRfnxw/pub?output=csv"
-// let url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcbLkwohWygIkGtgN8bSFiFSvQ9cEgotSlxFM7cth79qGonkJP8vlG0qsLsNWMcp5RA8lN14C812ly/pub?gid=1237870800&single=true&output=tsv"
-let url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDPJmwmnOI18TLWS1XU5Zp1kWhruL4HcLyTsjVU1PpjgSf7id0Apirre5RsFoRTk7tyS1gXcNRfnxw/pub?output=tsv"
+let url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRcbLkwohWygIkGtgN8bSFiFSvQ9cEgotSlxFM7cth79qGonkJP8vlG0qsLsNWMcp5RA8lN14C812ly/pub?gid=1237870800&single=true&output=tsv"
+// let url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDPJmwmnOI18TLWS1XU5Zp1kWhruL4HcLyTsjVU1PpjgSf7id0Apirre5RsFoRTk7tyS1gXcNRfnxw/pub?gid=0&single=true&output=tsv"
 let data;
 let originalAboutText = document.getElementById('about-text').innerHTML;
 
